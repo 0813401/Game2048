@@ -1,0 +1,25 @@
+
+div#container{
+    background-color: gray;
+    width: 20em;
+    height: 20em;
+
+}
+
+div#container .tile{
+    /*display: flex //like grid*/
+    float: left;
+    color: snow;
+    font-size: 3em;
+    width: 1.5em; 
+    height: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0.07em;
+    background-color: #80FFFF;
+}
+div#container .tile:nth-of-type(4n+1){
+    clear: both;
+}
+
+/* width: 1.5em 是 font-size * 1.5em*/
